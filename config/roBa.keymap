@@ -106,7 +106,7 @@
 &kp CAPS        &kp INS  &kp SCROLLLOCK  &kp C_PAUSE  &kp PRINTSCREEN                        &kp ESCAPE  &kp TAB    &kp UP_ARROW   &kp BACKSPACE  &kp DELETE
 &kp LCTRL       &trans   &trans          &trans       &trans           &trans      &mkp MB5  &kp HOME    &kp LEFT   &kp DOWN       &kp RIGHT      &kp RCTRL
 &kp LEFT_SHIFT  &trans   &trans          &kp LANG2    &trans           &trans      &mkp MB4  &kp END     &kp LANG1  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_SHIFT
-&none           &trans   &trans          &trans       &trans           &sl 6       &trans    &trans                                               &none
+&none           &none    &trans          &trans       &trans           &sl 6       &trans    &trans                                               &none
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
