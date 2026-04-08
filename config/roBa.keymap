@@ -19,7 +19,6 @@
     //         <&kp LEFT_ARROW>,
     //         <&kp UP_ARROW>,
     //         <&kp DOWN_ARROW>;
-
     //     tick = <10>;
     //     wait-ms = <5>;
     //     tap-ms = <5>;
@@ -30,29 +29,19 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+        MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        MB3 {
+            bindings = <&mkp MB3>;
+            key-positions = <18 20>;
         };
     };
 
@@ -64,7 +53,6 @@
             label = "TO_LAYER_0";
         };
     };
-
 
     behaviors {
         encoder_msc_down_up: encoder_msc_down_up {
@@ -120,6 +108,8 @@
 &kp LEFT_SHIFT  &trans   &trans          &kp LANG2    &trans           &trans      &mkp MB4  &kp END     &kp LANG1  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_SHIFT
 &none           &trans   &trans          &trans       &trans           &sl 6       &trans    &trans                                               &none
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         NUM {
