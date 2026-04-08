@@ -63,9 +63,7 @@
 
             tap-ms = <20>;
         };
-    };
 
-    behaviors {
         encoder_msc_right_left: encoder_msc_right_left {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_RIGHT_LEFT";
@@ -74,9 +72,7 @@
 
             tap-ms = <20>;
         };
-    };
 
-    behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
