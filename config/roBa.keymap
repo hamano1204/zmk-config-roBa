@@ -101,10 +101,10 @@
 
         FUNCTION {
             bindings = <
-&kp CAPS        &kp INS  &kp SCROLLLOCK  &kp C_PAUSE  &kp PRINTSCREEN                        &kp ESCAPE  &kp TAB    &kp UP_ARROW   &kp BACKSPACE  &kp DELETE
-&kp LCTRL       &trans   &trans          &trans       &trans           &trans      &mkp MB5  &kp HOME    &kp LEFT   &kp DOWN       &kp RIGHT      &kp RCTRL
-&kp LEFT_SHIFT  &trans   &trans          &kp LANG2    &trans           &trans      &mkp MB4  &kp END     &kp LANG1  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_SHIFT
-&none           &none    &none           &trans       &trans           &sl 6       &trans    &trans                                               &none
+&kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5                              &kp NUMBER_6     &kp N7   &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0
+&mt LCTRL MINUS    &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &trans      &trans  &kp EXCLAMATION  &kp SQT  &kp INT_RO        &kp F11           &mt RCTRL F12
+&mt LEFT_SHIFT F1  &kp F2        &kp F3            &kp F4             &kp F5                &trans      &trans  &kp F6           &kp F7   &mt RIGHT_WIN F8  &mt RIGHT_ALT F9  &mt RIGHT_SHIFT F10
+&trans             &trans        &trans            &trans             &trans                &trans      &sl 6   &trans                                                        &none
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -121,13 +121,13 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp LG(TAB)     &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &none
+&kp CAPS        &kp INS  &kp SCROLLLOCK  &kp C_PAUSE  &kp PRINTSCREEN                        &kp ESCAPE  &kp TAB    &kp UP_ARROW   &kp BACKSPACE  &kp DELETE
+&kp LCTRL       &trans   &trans          &trans       &trans           &trans      &mkp MB5  &kp HOME    &kp LEFT   &kp DOWN       &kp RIGHT      &kp RCTRL
+&kp LEFT_SHIFT  &trans   &trans          &kp LANG2    &trans           &trans      &mkp MB4  &kp END     &kp LANG1  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_SHIFT
+&none           &none    &trans          &trans       &trans           &sl 6       &trans    &trans                                               &none
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         MOUSE {
