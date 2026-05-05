@@ -35,16 +35,19 @@
         combo_MB1 {
             bindings = <&mkp MB1>;
             key-positions = <31 32>;
+            layers = <0>;
         };
 
         combo_MB2 {
             bindings = <&mkp MB2>;
             key-positions = <32 33>;
+            layers = <0>;
         };
 
         combo_MB3 {
             bindings = <&mkp MB3>;
             key-positions = <33 31>;
+            layers = <0>;
         };
     };
 
