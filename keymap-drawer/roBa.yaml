@@ -84,8 +84,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '6', h: sticky, type: held}
+  - {t: '6', h: sticky}
+  - {type: held}
   - {t: ▽, type: trans}
   - ''
   NUM:
@@ -115,10 +115,10 @@ layers:
   - F12
   - ''
   - ''
-  - ''
+  - LANGUAGE 2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - LANGUAGE 1
   - ''
   - RIGHT WIN
   - RIGHT ALT
@@ -304,14 +304,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [18, 19]
+- p: [31, 32]
   k: '&mkp MB1'
-- p: [19, 20]
+  l: [default]
+- p: [32, 33]
   k: '&mkp MB2'
-- p: [18, 20]
+  l: [default]
+- p: [33, 31]
   k: '&mkp MB3'
+  l: [default]
