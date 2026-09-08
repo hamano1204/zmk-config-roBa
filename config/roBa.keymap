@@ -39,7 +39,7 @@
 
         cMB2 {
             bindings = <&mkp MB2>;
-            key-positions = <8 9>;
+            key-positions = <32 33>;
         };
     };
 
