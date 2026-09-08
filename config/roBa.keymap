@@ -32,17 +32,17 @@
     combos {
         compatible = "zmk,combos";
 
-        MB1 {
+        cMB1 {
             bindings = <&mkp MB1>;
             key-positions = <20 21>;
         };
 
-        MB2 {
+        cMB2 {
             bindings = <&mkp MB2>;
             key-positions = <32 33>;
         };
 
-        MK3 {
+        cMK3 {
             bindings = <&mkp MB3>;
             key-positions = <8 9>;
         };
